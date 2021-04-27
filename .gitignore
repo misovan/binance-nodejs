@@ -3,3 +3,4 @@ node_modules
 .env*
 /.vs/ProjectSettings.json
 /.vs/slnx.sqlite
+/.vs/binance-nodejs/v16/.suo
