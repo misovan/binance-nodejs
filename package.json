@@ -96,13 +96,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/santacruz123/binance-nodejs.git"
+    "url": "git+ssh://git@github.com/misovan/binance-nodejs.git"
   },
   "private": false,
   "bugs": {
-    "url": "https://github.com/santacruz123/binance-nodejs/issues"
+    "url": "https://github.com/misovan/binance-nodejs/issues"
   },
-  "homepage": "https://github.com/santacruz123/binance-nodejs#readme",
+  "homepage": "https://github.com/misovan/binance-nodejs#readme",
   "directories": {
     "lib": "lib"
   },
