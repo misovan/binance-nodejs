@@ -35,7 +35,7 @@ class Rest {
     this.secret = secret ? secret : process.env.BINANCE_SECRET
 
     this.got = Got.extend({
-      prefixUrl: 'https://api.binance.com',
+        prefixUrl: 'https://dapi.binance.com',
       timeout,
       agent: {
         https: new https.Agent({ keepAlive }),
@@ -44,7 +44,7 @@ class Rest {
   }
 
   request(url, json = {}, method = 'GET') {
-    url = 'api/v3/' + url
+    url = 'dapi/v1/' + url
 
     if (['POST', 'DELETE', 'PUT'].includes(method) && process.env.BINANCE_SAFE) {
       const err = new Error('BINANCE_SAFE mode is ON')

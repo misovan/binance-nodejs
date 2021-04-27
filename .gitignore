@@ -1,2 +1,4 @@
 lib
 .env*
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
